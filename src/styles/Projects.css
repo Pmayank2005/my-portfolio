@@ -154,3 +154,41 @@
     font-size: 0.9rem;
   }
 }
+
+@media (max-width: 480px) {
+  .projects {
+    padding: 50px 1rem;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .section-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .project-card {
+    padding: 1rem;
+  }
+
+  .project-title {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .project-description {
+    font-size: 0.85rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .tech-tag {
+    font-size: 0.7rem;
+    padding: 0.3rem 0.6rem;
+  }
+
+  .project-link {
+    font-size: 0.85rem;
+    padding: 0.4rem;
+  }
+}

@@ -134,8 +134,34 @@
     gap: 2rem;
   }
 
-
   .about-paragraph {
     font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about {
+    padding: 50px 1rem;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .section-subtitle {
+    font-size: 1rem;
+  }
+
+  .about-content {
+    gap: 1.5rem;
+  }
+
+  .placeholder-image {
+    max-width: 300px;
+  }
+
+  .about-paragraph {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
   }
 }

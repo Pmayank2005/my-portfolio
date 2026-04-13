@@ -29,12 +29,13 @@ const Header = () => {
           <button onClick={() => scrollToSection('skills')} className="nav-link">Skills</button>
           <button onClick={() => scrollToSection('projects')} className="nav-link">Projects</button>
           <button onClick={() => scrollToSection('contact')} className="nav-link">Contact</button>
+          <a href="/my-portfolio/resume.pdf" download className="download-btn">Download Resume</a>
         </nav>
 
-        <a href="/my-portfolio/resume.pdf" download className="download-btn">Download Resume</a>
-
         <button className="menu-toggle" onClick={toggleMenu}>
-          <span className={`hamburger ${menuOpen ? 'active' : ''}`}></span>
+          <span className="hamburger"></span>
+          <span className="hamburger"></span>
+          <span className="hamburger"></span>
         </button>
       </div>
     </header>
