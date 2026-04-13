@@ -22,7 +22,7 @@ const About = () => {
           <div className="about-image">
             <div className="placeholder-image">
               <div className="image-placeholder">
-                <img src="/profile.jpg" alt="Mayank" />
+                <img src="/my-portfolio/profile.jpg" alt="Mayank" />
               </div>
             </div>
           </div>

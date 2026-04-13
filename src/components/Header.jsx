@@ -31,7 +31,7 @@ const Header = () => {
           <button onClick={() => scrollToSection('contact')} className="nav-link">Contact</button>
         </nav>
 
-        <a href="/my-portfolio/public/resume.pdf" download className="download-btn">Download Resume</a>
+        <a href="/my-portfolio/resume.pdf" download className="download-btn">Download Resume</a>
 
         <button className="menu-toggle" onClick={toggleMenu}>
           <span className={`hamburger ${menuOpen ? 'active' : ''}`}></span>
