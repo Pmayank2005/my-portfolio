@@ -1,4 +1,4 @@
-# Kirtana's Portfolio
+# Mayank's Portfolio
 
 A modern, responsive, and animated portfolio website built with React and Vite. This portfolio showcases projects, skills, and contact information with smooth animations and a professional design.
 
