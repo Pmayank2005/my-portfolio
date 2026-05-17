@@ -19,7 +19,7 @@ const Projects = () => {
       id: 3,
       title: 'Data Duplication Alert System',
       description: 'System to detect and alert on duplicate data entries across multiple sources.',
-      tech: ['Python', 'PostgreSQL', 'React']
+      tech: ['Python', 'React', 'Network Security']
     },
     
   ];

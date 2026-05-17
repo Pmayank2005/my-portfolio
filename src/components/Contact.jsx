@@ -8,7 +8,7 @@ const Contact = () => {
       <div className="section-container">
         <h2 className="section-title">Contact</h2>
         <p className="section-subtitle">Reach out via email, GitHub, or LinkedIn</p>
-        <p className="hero-description">
+        {/* <p className="hero-description">
             <a href="mailto:panditmayank2005@gmail.com">
               Email: panditmayank2005@gmail.com
             </a>
@@ -22,7 +22,7 @@ const Contact = () => {
             <a href="https://github.com/Pmayank2005">
               GitHub: github.com/Pmayank2005
             </a>
-        </p>
+        </p>*/}
 
         <div className="contact-actions">
           <a href="mailto:panditmayank2005@gmail.com" className="contact-button">
