@@ -7,19 +7,22 @@ const Projects = () => {
       id: 1,
       title: 'Phishing Detection System',
       description: 'Machine learning system to detect phishing emails and malicious URLs.',
-      tech: ['Machine Learning', 'Python', 'React', 'Cybersecurity']
+      tech: ['Machine Learning', 'Python', 'React', 'Cybersecurity'],
+      githubUrl: '#'
     },
     {
       id: 2,
       title: 'MITM Attack Detection',
       description: 'Detects man-in-the-middle attacks using traffic analysis and Machine Learning. Still building this project, will update soon.',
-      tech: ['Machine Learning', 'Python', 'Wireshark', 'Cybersecurity']
+      tech: ['Machine Learning', 'Python', 'Wireshark', 'Cybersecurity'],
+      githubUrl: '#'
     },
     {
       id: 3,
       title: 'Data Duplication Alert System',
       description: 'System to detect and alert on duplicate data entries across multiple sources.',
-      tech: ['Python', 'React', 'Network Security']
+      tech: ['Python', 'React', 'Network Security'],
+      githubUrl: 'https://github.com/Pmayank2005/Data_Duplicate_Alert_System'
     },
     
   ];
@@ -46,9 +49,18 @@ const Projects = () => {
                   <span key={idx} className="tech-tag">{tech}</span>
                 ))}
               </div>
-              <div className="project-links">
-                <a href="#" className="project-link">GitHub</a>
-              </div>
+              {project.githubUrl && (
+                <div className="project-links">
+                  <a
+                    href={project.githubUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="project-link"
+                  >
+                    GitHub
+                  </a>
+                </div>
+              )}
             </div>
           ))}
         </div>
