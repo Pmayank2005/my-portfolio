@@ -4,11 +4,16 @@ import '../styles/Skills.css';
 const Skills = () => {
   const skills = [
     "Python",
+    "React",
+    "Angular JS",
     "Kali Linux",
     "Wireshark",
     "Machine Learning",
     "Networking",
-    "Cybersecurity"
+    "Cybersecurity",
+    "Blockchain",
+    "Solidity",
+    "Ganache",
   ];
 
   return (
