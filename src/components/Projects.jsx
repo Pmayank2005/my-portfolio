@@ -5,20 +5,27 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'Phishing Detection System',
-      description: 'Machine learning system to detect phishing emails and malicious URLs.',
-      tech: ['Machine Learning', 'Python', 'React', 'Cybersecurity'],
-      githubUrl: '#'
+      title: 'CertVerify',
+      description: 'A local demonstration of blockchain-based academic certificate issuance and verification.',
+      tech: ['Blockchain', 'Angular JS', 'Solidity', 'Ganache', 'MetaMask'],
+      githubUrl: 'https://github.com/Pmayank2005/CertVerify'
     },
     {
       id: 2,
+      title: 'Phishing Detection System',
+      description: 'Machine learning system to detect phishing emails and malicious URLs.',
+      tech: ['Machine Learning', 'Python', 'React', 'Cybersecurity'],
+      githubUrl: 'https://github.com/Pmayank2005/Phishing_Detection_System'
+    },
+    {
+      id: 3,
       title: 'MITM Attack Detection',
       description: 'Detects man-in-the-middle attacks using traffic analysis and Machine Learning. Still building this project, will update soon.',
       tech: ['Machine Learning', 'Python', 'Wireshark', 'Cybersecurity'],
       githubUrl: '#'
     },
     {
-      id: 3,
+      id: 4,
       title: 'Data Duplication Alert System',
       description: 'System to detect and alert on duplicate data entries across multiple sources.',
       tech: ['Python', 'React', 'Network Security'],
