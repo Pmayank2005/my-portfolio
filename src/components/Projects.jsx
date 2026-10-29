@@ -19,6 +19,13 @@ const Projects = () => {
     },
     {
       id: 3,
+      title: 'Blog Website',
+      description: 'A modern, full-stack blog application built with React, Express, Prisma, and PostgreSQL.',
+      tech: ['React', 'Prisma', 'PostgreSQL'],
+      githubUrl: 'https://github.com/Pmayank2005/Fullstack-blog-platform.git'
+    },
+    {
+      id: 4,
       title: 'MITM Attack Detection',
       description: 'Detects man-in-the-middle attacks using traffic analysis and Machine Learning. Still building this project, will update soon.',
       tech: ['Machine Learning', 'Python', 'Wireshark', 'Cybersecurity'],
